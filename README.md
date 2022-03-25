@@ -10,3 +10,16 @@ and then run the code using
 ```
 ./KeepingContext
 ```
+
+## Expected output
+
+```
+frame_count=2 about to call processFrame
+frame_count=2 frame_id=1 started processFrame
+frame_count=2 frame_id=1 finished processFrame
+frame_count=2 finished the call to processFrame
+frame_count=2 about to call processFrame
+frame_count=2 frame_id=2 started processFrame
+frame_count=2 frame_id=2 finished processFrame
+frame_count=2 finished the call to processFrame
+```
